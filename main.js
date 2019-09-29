@@ -16,6 +16,7 @@ function createWindow() {
 
   // 加载index.html文件
   win.loadFile('index.html')
+  win.setProgressBar(0.5)
 
   // 打开开发者工具
   win.webContents.openDevTools()
