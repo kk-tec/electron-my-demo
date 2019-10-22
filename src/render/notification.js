@@ -5,7 +5,7 @@ const notification = {
   }
 }
 
-const notificationBtn = document.getElementById('basic-noti')
+const notificationBtn = document.getElementById('basic_noti')
 
 notificationBtn.addEventListener('click', () => {
   const myNotification = new window.Notification(
